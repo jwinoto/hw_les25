@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JW Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+
+
+        <script type="text/Javascript">
+           
+           $(document).ready(function() {
+            
+
+             $(".bl").click(function() {
+                $(".card").hide();
+                $(".bl").hide();
+                $(".tlp").hide();
+                $(".bl_nav").show();
+                $(".tlp_nav").show();
+                $(".tekst").hide();
+                $(".overmij").hide();
+                $(".foto").show();
+                
+                
+             })
+            
+             $(".bl_nav").click(function() {
+                $(".card").hide();
+                $(".foto").show();
+                $(".tulpen").hide();
+                $(".bl").hide();
+                $(".tlp").hide();
+                $(".tekst").hide();
+                $(".overmij").hide();
+             })
+
+             $(".tlp_nav").click(function() {
+                $(".card").hide();
+                $(".tulpen").show();
+                $(".foto").hide();
+                $(".bl").hide();
+                $(".tlp").hide();
+                $(".tekst").hide();
+                $(".overmij").hide();
+             })
+
+           $(".tlp").click(function() {
+                $(".card").hide();
+                $(".tlp").hide();
+                $(".bl").hide();
+                $(".bl_nav").show();
+                $(".tlp_nav").show();
+                $(".tekst").hide();
+                $(".overmij").hide();
+                $(".tulpen").show();
+                
+           })
+            
+           $(".aboutme").click(function() {
+                $(".card").hide();
+                $(".bl").hide();
+                $(".tlp").hide();
+                $(".bl_nav").show();
+                $(".tlp_nav").show();
+                $(".tekst").hide();   
+                $(".overmij").show();
+                $(".foto").hide();
+                $(".tulpen").hide();
+           })
+
+           $(".mijnfoto").mouseenter(function(){
+                    $(this).animate({
+                        opacity: 0.5
+
+                    })
+                })
+                $(".mijnfoto").mouseleave(function() {
+                    $(this).animate ({
+                        opacity: 1.0
+                })
+                })
+           
+ });
+  </script>
+
+    </head>
+
+    <body>
+
+    
+            <ul>
+                <li><a class="album" href="index.html">Home</a></li>
+                <li><a class="bl_nav" href="#bloesem">Bloesem Fotografie</a></li>
+                <li><a class="tlp_nav" href="#tulip">Tulpen Fotografie</a></li>
+                <li><a class="aboutme" href="#overmij">Over mij</a></li>
+            </ul>    
+      
+        <div class="header">
+        <h1>JW Gallery</h1>
+        </div>
+
+     
+     <div class="row">
+
+        <div class="container">
+          
+            <div class="card">
+                <a class="bl"  href="#bloesem"><img  src="afb/bloesem/bl-1.JPG" alt="" ></a>
+                <div class="tekst">Bloesem</div>
+            </div>   
+                       
+            <div class="card">
+                <a class="tlp" href="#tulip"><img  src="afb/tulpen/tulip_1.jpg" alt="" ></a>
+                <div class="tekst">Tulpen</div>
+            </div>
+            
+        </div>
+                
+
+        <div class="bloesem">
+
+            
+         <div class="col-6">  
+            <div class="foto">
+                <img class="ft" src="afb/bloesem/bl-1.JPG" alt="">
+            </div>
+                               
+            <div class="foto">
+                <img class="ft" src="afb/bloesem/bl_2.JPG" alt="" >
+            </div>        
+      
+            
+         </div>   
+         
+         <div class="col-6">
+            <div class="foto">
+                <img class="ft" src="afb/bloesem/bl_3.JPG" alt="">
+            </div>
+                 
+             <div class="foto">
+                <img class="ft" src="afb/bloesem/bl_4.jpg" alt="">
+            </div>        
+         
+               
+         </div>
+            
+        </div>
+        
+               
+            
+        <div class="tulip">                
+                
+            <div class="col-6">                
+
+                <div class="tulpen">
+                    <img class="tlpn" src="afb/tulpen/tulip_1.jpg" alt="">
+                </div>
+                
+                <div class="tulpen">
+                    <img class="tlpn" src="afb/tulpen/tulip_3.jpg" alt="">
+                </div>
+        
+                
+
+            </div>
+
+            <div class="col-6">
+
+                <div class="tulpen">
+                    <img class="tlpn" src="afb/tulpen/tulip_2.jpg" alt="">
+                </div>
+                
+                <div class="tulpen">
+                    <img class="tlpn" src="afb/tulpen/tulip_4.jpg" alt="">
+                </div>
+
+                
+            </div>
+                
+        </div>
+        
+                
+    <div class="overmij">
+
+    <div class="col-6">
+        <img class="mijnfoto" src="afb/jeanne.jpg">
+    </div>
+    
+    <div class="col-6">
+       
+        <p>Hoi! Ik ben Jeanne en ik ben een hobbyfotograaf. Fotografie is voor mij meer dan alleen het vastleggen van beelden.
+            Elke foto die ik gemaakt heb, staat een verhaal achter die zorgt voor een mooie herinneringen.
+            Alles begon in 2020, tijdens een wandeling kwam ik er achter dat ik fotograferen leuk vind. 
+            Sinds dat moment heb ik besloten om meer te leren hoe ik de foto's de beste moet vastleggen.    
+        </p>
+        <p>
+            Of het nu gaat over natuur, landschappen, of straatfotografie, 
+            ik geniet ervan om met mijn camera op pad te gaan om mooie beelden vast te leggen.
+            Fotografie is voor mij een afleiding naast mijn drukke dagelijkse bezigheden, en ik leer nog elke dag bij.
+            Neem gerust een kijkje en laat me weten wat u ervan vindt.
+        </p>
+        <p>
+            <button type="submit"><a href="mailto:jwinoto39@gmail.com">Contact</a></button>
+        </p>
+    </div>
+
+    </div>
+
+    
+</div>
+
+    
+        <div class="footer">
+            
+            <h5 class="copyright">Copyright 2025, JW Gallery</h5>
+            
+        </div>
+    </body>
+</html>
