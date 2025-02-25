@@ -1,0 +1,218 @@
+body {
+    background-color: beige;
+    
+    font-family: "Verdana";
+    
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 6px;
+    margin: auto;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+  
+    width: 100%;
+    
+}
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+div.card img{
+    height: auto;
+    width: 75%;
+    margin: auto;
+    display: block;
+   
+    
+} 
+
+div.card {
+     padding: 10px;
+     display: block;
+     margin: auto;
+     height: auto;
+     width: 50%;
+}    
+
+
+.tekst {
+    font-size: 30px;
+    font-family: lobster;
+    color: rgb(221, 152, 63);
+    text-align: center;
+    
+}
+
+div.card:hover {
+    box-shadow: 0 5px 5px 0 rgb(98, 63, 63), 0 5px 5px 0 rgb(98, 63, 63);
+}
+
+.header{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px; 
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(227, 198, 161), whitesmoke);
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 14px;
+    float: left;
+}
+
+li a:hover {
+    color: burlywood;
+ 
+}
+
+
+
+.foto {
+    display: none;    
+    padding: 5px;
+    
+}
+
+
+
+.ft{
+    height: auto;
+    width: 100%;   
+    padding: 5px;
+    
+}
+
+.tulpen {
+    display: none;  
+    padding: 5px;
+    margin: auto;
+}
+
+
+
+.tlpn  {
+    height: auto;
+    width: 100%;   
+    padding: 5px;   
+}
+
+
+
+h1{
+    font-size: 75px;
+    font-family: "Passion One";
+    color: rgb(221, 152, 63);
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+h5 {
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.mijnfoto {
+    height: auto;
+    width: 100%;    
+    border-radius: 10px 50px;
+    padding: 20px;
+    
+    
+}
+
+p{
+    
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+.overmij {
+    display: none;    
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(221, 152, 63);
+    color: black;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+
+.footer {
+    
+    display: flex;
+    margin: auto;
+    color: white;
+    height: 45px;
+    width: 100%;   
+    padding: 15px;
+    background-image: linear-gradient(to right, whitesmoke, rgb(227, 198, 161));
+}
+
+.copyright{
+    display: block;
+    margin: auto;
+}
+
